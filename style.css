@@ -1,0 +1,163 @@
+:root{
+    --primary-color:#353233;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+footer{
+    background-color: rgb(65, 65, 65);
+    color: white;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+   background-color: var(--primary-color);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-item{
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+.main{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+
+.left-main{
+    max-width: 35vw;
+}
+
+.button{
+    background-color: rgb(67, 142, 255);
+    color: white;
+    border: 0ch;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 15%;
+}
+
+.box{
+    height: 20vh;
+    width: 20vh;
+ 
+    background-color: rgb(255, 255, 255);
+    border-color: aqua;
+    border-style: dotted;
+    padding: 20px;
+}
+
+.info-section{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+.quote-section{
+   margin-top: 150px;
+ 
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+.quote{
+  
+    max-width: 50vw;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.quote::after{
+    position: relative;
+   
+    content: "-Thor, God of Thunder";
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    top: 6vh;
+    left: 15vw;
+}
+
+.cta-box{
+    background-color: rgb(45, 189, 255);
+    width: 80vw;
+    height: auto;
+    padding: 30px;
+    
+
+}
+
+.cta-section{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: white;
+  
+}
+.cta-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-ghost{
+background-color: white;
+border-color: rgb(45, 189, 255); 
+border: 0ch;
+padding: 12px;
+font-weight: bold;
+border-radius: 15%;
+max-height: 5vh;
+
+}
